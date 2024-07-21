@@ -1,0 +1,19 @@
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card {
+    flex-shrink: 0;
+    flex: 0 0 calc(100% / 5); /* Adjust width for 5 items per slide */
+    max-width: calc(100% / 5);
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+  

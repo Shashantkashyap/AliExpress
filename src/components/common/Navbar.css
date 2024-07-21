@@ -1,0 +1,28 @@
+/* Navbar.css */
+.navbar-dropdown {
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+.dropdown-container {
+    position: absolute;
+    top: calc(100% + 10px); /* Position it below the trigger element */
+    left: 0;
+    width: 100%;
+    max-height: 200px; /* Set a max height for scrollability */
+    overflow-y: auto; /* Enable vertical scrolling */
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Smooth transition for height and opacity */
+    opacity: 0;
+    pointer-events: none; /* Hide and disable interaction when closed */
+  }
+  
+  .dropdown-container.show {
+    z-index: 10;
+    max-height: 300px; /* Adjust as needed */
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
