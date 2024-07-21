@@ -3,7 +3,6 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SendSignInLink from './pages/SendSignInLink';
-import FinishSignUp from './pages/FinishSignUp';
 import CategoryProduct from './pages/CategoryProduct';
 import ProductDescriptionPage from './pages/ProductDescriptionPage';
 import Cart from './pages/Cart';
