@@ -16,7 +16,7 @@ function App() {
       <Route element={<Home/>} path='/'/>
       <Route element={<CategoryProduct/>} path='/categoryProduct'/>
       <Route path="/sendSignInLink" element={<SendSignInLink/>} />
-        <Route path="/finishSignUp" element={<FinishSignUp/>} />
+        
         <Route element={<ProductDescriptionPage/>} path='/productDescription'/>
         <Route element={<Cart/>} path='/cartPage'/>
         <Route element={<SearchPage/>} path='/SearchPage'/>
