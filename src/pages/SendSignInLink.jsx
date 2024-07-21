@@ -12,7 +12,7 @@ const SendSignInLink = () => {
   const sendSignInLink = async (e) => {
     e.preventDefault();
     const actionCodeSettings = {
-      url: 'http://localhost:5173/finishSignUp', // Update with your redirect URL
+      url: 'ali-express-obvp0jupx-shashants-projects.vercel.app/finishSignUp', // Update with your redirect URL
       handleCodeInApp: true,
     };
 
